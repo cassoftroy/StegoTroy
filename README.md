@@ -17,14 +17,6 @@ https://github.com/user-attachments/assets/cbc04380-fabd-4789-8f77-94f7c62a2bc7
 - **LSB Comparison:** compare an original and an encoded image to see which pixels changed
 - **File Forensic:** check an image's format, header, dimensions and EXIF metadata
 
-## Supported files
-
-| Type | Formats |
-| --- | --- |
-| Cover image | PNG, BMP, JPG, JPEG |
-| Secret file | TXT, PDF, DOCX, CSV |
-| Encoded output | PNG |
-
 ## Run it locally
 
 ```
@@ -33,11 +25,6 @@ cd StegoTroy
 pip install -r requirements.txt
 streamlit run main.py
 ```
-
-## Limitations
-
-- The secret file must be small enough to fit in the image. Larger images can hold more data.
-- LSB hiding is not hard to detect with analysis tools. Use a password if the content matters.
 
 ## Disclaimer
 
