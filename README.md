@@ -1,7 +1,8 @@
 # StegoTroy
 
-StegoTroy is a web app that hides a secret file inside an image using least significant bit (LSB) steganography. 
-It was built with Python and Streamlit as a small learning project.
+StegoTroy is a web app that hides a secret file inside an image using least significant bit (LSB) steganography.
+It can also encrypt the file with a password and check an image for forensic details. 
+Built with Python and Streamlit as a small learning project.
 
 **Live app:** https://stegotroy.streamlit.app/
 
